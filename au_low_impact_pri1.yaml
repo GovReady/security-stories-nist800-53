@@ -32,18 +32,32 @@ issues:
       - security
       - compliance
 
-  - title: 
+  - title: As the CISO, I need to know that our there is a reliable systems for collecting audit trail information, and I need to periodically review these audit trails to ensure that the systems are working properly.
 
     body: |
 
       *Why:*
+      In the event of a security incidents, we need to be able to investigate the source and potential scope of the breach.
 
       *How:* 
-      * 
+      * Work across organizations to develp a list of audit events.  Examples include:
+        * Password changes
+        * Successful and unsuccessful login attempts
+        * Successful and unsuccessful attempts to access, modify, or delete privileges, security objects, security levels, or categories of information
+        * Administrative privilege usage or other system level access
+        * Starting and ending time for user access to the system
+        * Concurrent logons from different workstations
+        * Account creations, modifications, disabling, and terminations
+        * Krnel module load, unload, and restart
+        * Third-party credential usage
+      * Define the frequency of (or situation requiring) auditing for each audit event.
+      * Develop a rationale for why the list of audit events is deemed to be adequate to support after-the-fact investigations of security incidents.
 
 
       *Acceptance Criteria / Evidence:*
-      * 
+      * List of audit events
+      * Frequency that each event will be audited to ensure data is being properly collected
+      * Rationale for why the list of audit events is complete
 
 
       *Links:*
@@ -70,11 +84,11 @@ issues:
 
 
       *Links:*
-      *
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-3
 
     labels:
       - AU
-      - AU-2
+      - AU-3
       - security
       - compliance
 
