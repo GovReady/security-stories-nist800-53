@@ -1,7 +1,7 @@
 id: au_low_impact_pri1
 milestone: Audit and Accountability
 issues:
-  - title: As the CIO, I want to document and communicate our organization's approach and priorities for having an reliable audit trail of transactions in our IT systems.
+  - title: As the CIO, I want to document and communicate our organization's approach and priorities for having a reliable audit trail of transactions in our IT systems.
 
     body: |
 
@@ -24,11 +24,111 @@ issues:
 
 
       *Links:*
-      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-1
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-1
 
     labels:
       - AU
       - AU-1
+      - security
+      - compliance
+
+  - title: 
+
+    body: |
+
+      *Why:*
+
+      *How:* 
+      * 
+
+
+      *Acceptance Criteria / Evidence:*
+      * 
+
+
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-2
+
+    labels:
+      - AU
+      - AU-2
+      - security
+      - compliance
+
+  - title: 
+
+    body: |
+
+      *Why:*
+
+      *How:* 
+      * 
+
+
+      *Acceptance Criteria / Evidence:*
+      * 
+
+
+      *Links:*
+      *
+
+    labels:
+      - AU
+      - AU-2
+      - security
+      - compliance
+
+  - title: 
+
+    body: |
+
+      *Why:*
+
+      *How:* 
+      * 
+
+
+      *Acceptance Criteria / Evidence:*
+      * 
+
+
+      *Links:*
+      * 
+
+    labels:
+      - AU
+      - AU-3
+      - security
+      - compliance
+
+  - title: As the CIO, I want there to be sufficient server storage for audit records.
+
+    body: |
+
+      *Why:*
+      We don’t want to lose critical audit records because storage capacity was exceeded.
+
+      *How:* 
+      * Check organization Audit Policy for time range of audit records to be saved (e.g., 6 month, 1 year, etc.)
+      * Estimate the storage required for the information system to store the required time period of logs
+      * Allocate the storage for the logs. One strategy is to copy audit records from system to secondary storage system to avoid loss of critical information
+      * Set up a notification when maximum storage is approached (e.g., 80%)
+
+
+      *Acceptance Criteria / Evidence:*
+      * Copy of section of audit policy specifying audit retention requirements
+      * Copy of section of STIG or SRG that indicates audit retention requirements 
+      * Demonstration of allocated storage (screenshot, service documentation, or configuration code
+      * Demonstration of notification as max storage approached (screenshot or inspection)
+
+
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-4
+      * http://800-53.govready.com/control?id=AU-4
+
+    labels:
+      - AU
+      - AU-4
       - security
       - compliance
 
@@ -40,7 +140,7 @@ issues:
 
 
       *How*
-      * Set up monitoring to detect issues with the audit system. Examples
+      * Set up monitoring to detect issues with the audit system. Examples:
         * Pingdom
         * Amazon CloudWatch
         * New Relic
@@ -60,6 +160,34 @@ issues:
     labels:
       - AU
       - AU-5
+      - security
+      - compliance
+
+  - title: As the CISO, I need to review all log files regularly bi-weekly for unusual activities.
+
+    body: |
+
+      *Why:*
+      We don’t want to lose critical audit records because of errors in the auditing system.
+
+      *How:* 
+      * Determine what the important log files are (webserver error log, webserver access log, database access log, system error log) and where on the server they are located.
+      * Decide which patterns we should be looking for: errors, suspicious access records, database access from an unexpected IP range.
+      * Approve the workflow (who to contact and how to contact them) for reporting any abnormalities.
+
+
+      *Acceptance Criteria / Evidence:*
+      * Copy of document listing log files and their locations.
+      * List of known vulnerability patterns we looking for.
+      * Document outlining workflow for reporting unusual activity.
+
+
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-6
+
+    labels:
+      - AU
+      - AU-6
       - security
       - compliance
 
@@ -91,57 +219,59 @@ issues:
       - security
       - compliance
 
-  - title: As the CISO, I want to retain log files long enough to investigate security incidents that happened weeks or months ago.
+  - title: As the CISO, I want to prevent unauthorized access to logs and audit reports and the systems that create them.
 
     body: |
 
-      *Why*
-      We may not learn of a penetration or security incident when it happens. Also, there may be regulatory requirements for retaining audit records.
+      *Why:*
+      Audit information can contain system information that would be dangerous in the wrong hands.  By the same token, the systems that create reports could be manipulated by an unauthorized party to provide misleading information.
 
 
-      *How*
-      Determine the official retention periods for different types of audit records (e.g., check organization policy and pertinent regulations)
-      Make sure system is configured to either not delete log files too soon, or logs are transferred to a service or separate storage for retention
+      *How:* 
+      * Determine list of privileged users that will have access to log generation, reduction reports and report-creating systems
+      * Ensure log-related information are read-only and write-only to authorized users
+      * Ensure report creation systems have permissions and or log-in credentials that bar access to unauthorized users
 
 
-      *Acceptance Criteria / Evidence*
-      * Excerpt of audit and accountability policy specifying retention periods of audit logs
-      * Copy of an after action report which includes audit log information
-      * Excerpt from STIG or SRG in use that automatically sets or specifies audit retention periods
+      *Acceptance Criteria / Evidence:*
+      * Provide list of privileged users with access to log generation, reduction reports and report-creating systems
 
 
-      *Links*
-      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-10
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-9
 
     labels:
       - AU
-      - AU-11
+      - AU-9
       - security
       - compliance
 
-  - title: As a CISO, I need to periodically check for data spillage and indicators of breaches showing up online.
+  - title: As the developer, I want the components of the system to generate required logs with required content.
 
     body: |
 
-      *Details*
-      Some types of content we are trying to protect:
-      * User accounts
-      * PII
-      * Server configuration (error messages)
-      * Secrets (in code repos)
-      * Brainstorm ways to look for our information on the public web.
-      * Develop a list of search terms that would indicate unauthorized information might be appearing online.
-      * Identify a list of organizationally controlled information services that might accidentally leak organizational information (e.g., newsletters, website, powerpoint presentations).
-      * Set up a google newsalert for FCC Hack,
-      * Find a service that searches publicly available information for data spills; look for government services providers
+      *Why:*
+      The organization needs certain information for audit purposes
+
+      *How:* 
+      * Check AU-2 for a list of auditable events and figure out which components provide the logs for those events
+      * Work with security and business to confirm events and components
+      * Check AU-3 for necessary log content and modify log templates and content accordingly
 
 
-      *Links*
+      *Acceptance Criteria / Evidence:*
+      * URL to audit and accountability policy
+      * List of system components that generate logs and log retention
+      * Excerpt from STIG or SRG in use that automatically sets or specifies log settings
+
+
+      *Links:*
       * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-12
 
     labels:
       - AU
-      - AU-13
+      - AU-12
       - security
       - compliance
+
 questions: []
