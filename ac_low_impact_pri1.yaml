@@ -1,0 +1,73 @@
+id: ac_low_impact_pri1
+milestone: Access Control
+issues:
+  - title: As the CIO, I want to document and communicate our organization's approach to managing access control mechanisms in our IT systems.
+
+    body: |
+
+      *Why:*
+      Access control is central to security compliance, and maintaining sensible rules for what classes of users have access to what types of systems will ensure lasting security for organizational systems.
+
+      *How:* 
+      * Define roles in addition to ISSO or ISSM that the access control policy is to be disseminated to. (State if there are no additional roles)
+      * Define roles in addition to ISSO or ISSM that the access control procedures are to be disseminated to. (State if there are no additional roles)
+      * Ensure that the access control policy and procedures are disseminated
+      * Define frequency at which to review and update the access control policy and procedures (Annually).
+      * Maintain audit trail of reviews and updates.
+
+      *Acceptance Criteria / Evidence:*
+      * List of personnel to whom access control policy and procedures are to be disseminated
+      * Access control policy
+      * Access control policy version update page
+      * Access control policy audit trail of reviews and updates
+
+      *Links:*
+      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-1
+
+    labels:
+      - AC
+      - AC-1
+      - security
+      - compliance
+
+  - title: As the CIO, I want to ensure system accounts are identified, approved, assigned, monitored, and reviewed in accordance with organizational policy. 
+
+    body: |
+
+      *Why:*
+      Having a robust process for the creation and review of IT system accounts ensures that users, and their privileges, are appropriately segmented in the organization.  
+
+      *How:* 
+      * Define types of accounts that exist within an organizational structure (eg. individual, shared, group, system, guest/anonymous, emergency, developer/manufacturer/vendor, temporary, and service).
+      * Nominate account managers for existing/future IT system accounts.
+      * Define conditions for group and role membership.
+      * Assign appropriate access and roles to existing accounts..
+      * Define roles to approve new IT system accounts.
+      * Manage existing and new accounts with defined policy (create, enable, modify, disable, and remove).
+      * Monitor account access across IT systems.
+      * Notify account managers when accounts are outdated, when users are no longer in the organization, or when system requirements change.
+      * Authorize access in accordance with authorization, intended use, and associated organizational goals.
+      * Review accounts at a defined frequency and evaluate compliance with account requirements.
+      * Define process for issuing group based credentials when individual accounts 
+
+      *Acceptance Criteria / Evidence:*
+      * List of types of accounts within an organization
+      * List of account managers for each IT system
+      * List of conditions for membership in each group and role
+      * Logs of the process in which existing accounts have been assigned roles
+      * List of personnel who approve new accounts for each system
+      * Logs of IT system account access
+      * Logs of communication with account managers when account roles and requirements change
+      * Logs of process to allow access or a new account to IT systems
+      * Logs of existing account review
+      * Documented process for reissuance of group-based credentials upon member change
+
+
+      *Links:*
+      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-2
+
+    labels:
+      - AC
+      - AC-2
+      - security
+      - compliance
