@@ -1,0 +1,147 @@
+id: au_low_impact_pri1
+milestone: Audit and Accountability
+issues:
+  - title: As the CIO, I want to document and communicate our organization's approach and priorities for having an reliable audit trail of transactions in our IT systems.
+
+    body: |
+
+      *Why:*
+      Logging various transactions in our IT systems is how we can later audit activity for things that went wrong and for malicious actions. Without audit trail we won't have a record of interactions with the system.
+
+      *How:* 
+      * Define roles in addition to ISSO or ISSM that the audit and accountability policy is to be disseminated to. (State if there are no additional roles)
+      * Define roles in addition to ISSO or ISSM that the audit and accountability procedures are to be disseminated to. (State if there are no additional roles)
+      * Ensure that the audit accountability policy and procedures are disseminated
+      * Define frequency at which to review and update the audit and accountability policy and procedures (Annually).
+      * Maintain audit trail of reviews and updates.
+
+
+      *Acceptance Criteria / Evidence:*
+      * List of personnel to whom accountability policy and procedures are to be disseminated
+      * Audit and accountability policy
+      * Audit and accountability policy version update page
+      * Audit and accountability policy audit trail of reviews and updates
+
+
+      *Links:*
+      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-1
+
+    labels:
+      - AU
+      - AU-1
+      - security
+      - compliance
+
+  - title: As the CIO, I need my team alerted whenever the information system's logging subsystem fails so steps can be taken to avoid further loss of audit data.
+    body: |
+
+      *Why*
+      We don’t want to lose critical audit records because of errors in the auditing system.
+
+
+      *How*
+      * Set up monitoring to detect issues with the audit system. Examples
+        * Pingdom
+        * Amazon CloudWatch
+        * New Relic
+      * A custom script monitoring updated timestamps
+      * Decide who should receive alerts.
+      * Determine an effective test frequency and alert method (text, email, Slack).
+      * Check the audit system monitors every two months to ensure they are working properly.
+
+
+      *Acceptance Criteria / Evidence*
+      * List of the people and method to alert when there are issues with the audit system.
+
+
+      *Links*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-5
+
+    labels:
+      - AU
+      - AU-5
+      - security
+      - compliance
+
+  - title: As the CISO, I want transactions in logs to clearly use a UTC timestamps so data can be synchronized with less processing.
+
+    body: |
+      *Why*
+      Reports need to be timestamped with an universally understood format to assist in analysis of events and system/data recovery.
+      When different logs use different timezones and/or non-standard formats, it is harder to collate and compare events across different logs.
+
+
+      *How*
+      * Create organization standard for transaction record timestamp granularity of least 1 second
+      * Create record timestamping mechanism that timestamps transactions with defined granularity in UTC or GMT
+      * Timestamp with a system’s clock
+
+
+      *Acceptance Criteria / Evidence*
+      * Excerpt from STIG or SRG in use that defines timestamp granularity standard
+      * Show example of logged events are being timestamped or configuration that forces timestamps
+
+
+      *Links*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-8
+
+    labels:
+      - AU
+      - AU-8
+      - security
+      - compliance
+
+  - title: As the CISO, I want to retain log files long enough to investigate security incidents that happened weeks or months ago.
+
+    body: |
+
+      *Why*
+      We may not learn of a penetration or security incident when it happens. Also, there may be regulatory requirements for retaining audit records.
+
+
+      *How*
+      Determine the official retention periods for different types of audit records (e.g., check organization policy and pertinent regulations)
+      Make sure system is configured to either not delete log files too soon, or logs are transferred to a service or separate storage for retention
+
+
+      *Acceptance Criteria / Evidence*
+      * Excerpt of audit and accountability policy specifying retention periods of audit logs
+      * Copy of an after action report which includes audit log information
+      * Excerpt from STIG or SRG in use that automatically sets or specifies audit retention periods
+
+
+      *Links*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-10
+
+    labels:
+      - AU
+      - AU-11
+      - security
+      - compliance
+
+  - title: As a CISO, I need to periodically check for data spillage and indicators of breaches showing up online.
+
+    body: |
+
+      *Details*
+      Some types of content we are trying to protect:
+      * User accounts
+      * PII
+      * Server configuration (error messages)
+      * Secrets (in code repos)
+      * Brainstorm ways to look for our information on the public web.
+      * Develop a list of search terms that would indicate unauthorized information might be appearing online.
+      * Identify a list of organizationally controlled information services that might accidentally leak organizational information (e.g., newsletters, website, powerpoint presentations).
+      * Set up a google newsalert for FCC Hack,
+      * Find a service that searches publicly available information for data spills; look for government services providers
+
+
+      *Links*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-12
+
+    labels:
+      - AU
+      - AU-13
+      - security
+      - compliance
+questions: []
