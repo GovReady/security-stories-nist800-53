@@ -71,3 +71,105 @@ issues:
       - AC-2
       - security
       - compliance
+
+  - title: As the CIO, I want to not only enforce access control policies for IT systems, but also apply them to applications and services that exist on those systems. 
+
+    body: |
+
+      *Why:*
+      Applications and services that run on IT systems present an equal, if not greater, danger to organizational security if left unexamined.
+
+      *How:* 
+      * Apply access control policies to applications and services that run on IT systems.
+
+      *Acceptance Criteria / Evidence:*
+      * Retain equivalent documentation of access control methods for individual applications that you do for IT systems themselves.  
+
+
+      *Links:*
+      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-3
+
+    labels:
+      - AC
+      - AC-3
+      - security
+      - compliance
+
+   - title: As the CIO, I want to ensure that users are notified of privacy and security concerns when they are logging into or using U.S. Government systems. 
+
+    body: |
+
+      *Why:*
+      Users interacting with U.S. Government systems should be aware of potential privacy and security concerns.
+
+      *How:* 
+      * Display in notice or banner that users are accessing a U.S. Government system
+      * Display in notice or banner that usage may be monitored, recorded, and subject to audit
+      * Display in notice or banner that unauthorized usage may incur civil and criminal charges
+      * Display in notice or banner that system usage implies consent to these policies
+      * If the system is publically accessible, inform user of the acceptable uses and potential for monitoring, audits, ect. 
+      * Display the notice or banner until the user acknowledges it
+
+      *Acceptance Criteria / Evidence:*
+      * List of systems and their user privacy and security concerns
+      * Notice or banner alerts user of relevant information
+      * Notice or banner continues to display until user acknowledges it
+
+      *Links:*
+      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-8
+
+    labels:
+      - AC
+      - AC-8
+      - security
+      - compliance
+
+  - title: As the CIO, I want to create guidelines for different types of remote connections to IT systems and authorize the granting of those connections.
+
+    body: |
+
+      *Why:*
+      Different types of remote access present unique security concerns.  Documenting the individual requirements for each type, and ensuring that authorization is granted accordingly, is key in maintaining organizational security.
+
+      *How:* 
+      * Define acceptable types of remote access
+      * Define restriction, configuration and implementation details for each type of access
+      * Authorize the granting of remote connection access
+
+      *Acceptance Criteria / Evidence:*
+      * List of organization approved remote access types
+      * Remote access policy
+      * Remote access authorization policy
+
+      *Links:*
+      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-17
+
+    labels:
+      - AC
+      - AC-17
+      - security
+      - compliance
+
+  - title: As the CIO, I want to create guidelines for wireless access to IT systems and authorize the granting of those connections.
+
+    body: |
+
+      *Why:*
+      Wireless access to IT systems by definition can be intercepted, and as a result, present security concerns.  Documenting the requirements for wireless access, and ensuring that authorization is granted accordingly, is key in maintaining organizational security.
+
+      *How:* 
+      * Define restriction, configuration and implementation details of wireless access
+      * Authorize the granting of wireless access to IT systems
+
+      *Acceptance Criteria / Evidence:*
+      * Wireless access policy
+      * Wireless access authorization policy
+
+      *Links:*
+      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-18
+
+    labels:
+      - AC
+      - AC-18
+      - security
+      - compliance
