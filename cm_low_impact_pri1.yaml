@@ -16,7 +16,7 @@ issues:
       *Acceptance Criteria / Evidence:*
       * List of personnel with whom the configuration management policy should be disseminated
       * Configuration management policy
-      * Frequency that configuration management policy should be updated
+      * Frequency that the configuration management policy should be updated
 
 
       *Links:*
@@ -28,29 +28,83 @@ issues:
       - security
       - configuration
 
-  - title: 
+  - title: As the CISO, I want to ensure that our IT system configuration settings are the most restrive possible that meets our functionality requirements.
 
     body: |
 
       *Why:*
+      Establishing and maintaining a standard set of locaked-down configurations is the most effective way to avoid security breaches.  Documenting the configuration settings is essential for personnel changes and can help us spot overlooked issues.  Sharing the documentation further helps us catch security holes.
+
 
       *How:* 
-      * 
-
+      * Develop and formally review a baseline configuration that can serve as a basis for future builds (CM-2).
+      * Establish and document the configuration used for all products used by the IT system. This configuration should provide only essential capabilities, and should restrict access to unused functions, ports and protocols (CM-7).
+      * Identify and document deviations from the established configuration settings.
+      * Monitor and control changes to the configuration settings.
+        
 
       *Acceptance Criteria / Evidence:*
-      * 
+      * Baseline configuration
+      * Configuration documentation for all products used by the IT system, including:
+        * Standard software packages installed on workstations, notebooks, mobile devices, and servers
+        * Current version numbers and patch information for the OS and applications
+        * Configuration settings/parameters
+        * Network arrangement
+      * Deviations from the established configuration settings
+      * Frequency with which the configuration settings will be reviewed.
 
 
       *Links:*
-      * 
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-2
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-7
 
     labels:
       - CM
       - CM-2
       - CM-6
+      - CM-6
       - security
       - configuration
       - baseline
+
+  - title: As the CISO, I want to maintain a centralized inventory of IT system components such as hardware, software licenses, and their respective owners.
+
+    body: |
+
+      *Why:*
+      Maintaining an inventory helps ensure that components are up-to-date and helps in addressing security vulnerability alerts.
+
+
+      *How:* 
+      * Determine the necessary information to collect.
+      * Collect an initial inventory of IT system components.
+      * Review the inventory in a pre-determined frequency.
+
+
+      *Acceptance Criteria / Evidence:*
+      * Inventory specifications. Examples:
+        * Manufacturer
+        * Device type
+        * Model
+        * Serial number 
+        * Physical location
+        * Personnel responsible
+      * Frequency that inventory will be reviewed
+      * Inventory of components, including:
+        * Hardware
+        * Software license information
+        * Software version numbers
+        * Machine names and network addresses for networked components or devices
+
+
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-8
+
+    labels:
+      - CM
+      - CM-3
+      - security
+      - inventory
 
 questions: []
