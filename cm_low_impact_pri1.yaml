@@ -1,0 +1,56 @@
+id: cm_low_impact_pri1
+milestone: Configuration Management
+issues:
+
+  - title: As the CIO, I want to document and communicate our configuration management policy.
+
+    body: |
+
+      *Why:*
+      Blah blah blah @todo
+
+      *How:* 
+      * See acceptance criteria. @todo?
+
+
+      *Acceptance Criteria / Evidence:*
+      * List of personnel with whom the configuration management policy should be disseminated
+      * Configuration management policy
+      * Frequency that configuration management policy should be updated
+
+
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-1
+
+    labels:
+      - CM
+      - CM-1
+      - security
+      - configuration
+
+  - title: 
+
+    body: |
+
+      *Why:*
+
+      *How:* 
+      * 
+
+
+      *Acceptance Criteria / Evidence:*
+      * 
+
+
+      *Links:*
+      * 
+
+    labels:
+      - CM
+      - CM-2
+      - CM-6
+      - security
+      - configuration
+      - baseline
+
+questions: []
