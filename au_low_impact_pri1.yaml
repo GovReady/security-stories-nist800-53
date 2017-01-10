@@ -40,15 +40,15 @@ issues:
       In the event of a security incidents, we need to be able to investigate the source and potential scope of the breach.
 
       *How:* 
-      * Work across organizations to develp a list of audit events.  Examples include:
+      * Work across organizations to develop a list of audit events.  Examples include:
         * Password changes
         * Successful and unsuccessful login attempts
         * Successful and unsuccessful attempts to access, modify, or delete privileges, security objects, security levels, or categories of information
         * Administrative privilege usage or other system level access
         * Starting and ending time for user access to the system
-        * Concurrent logons from different workstations
+        * Concurrent logins from different workstations
         * Account creations, modifications, disabling, and terminations
-        * Krnel module load, unload, and restart
+        * Kernel module load, unload, and restart
         * Third-party credential usage
       * Define the frequency of (or situation requiring) auditing for each audit event.
       * Develop a rationale for why the list of audit events is deemed to be adequate to support after-the-fact investigations of security incidents.

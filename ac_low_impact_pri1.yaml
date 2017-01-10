@@ -60,7 +60,7 @@ issues:
       * Logs of communication with account managers when account roles and requirements change
       * Logs of process to allow access or a new account to IT systems
       * Logs of existing account review
-      * Documented process for reissuance of group-based credentials upon member change
+      * Documented process for re-issuance of group-based credentials upon member change
 
 
       *Links:*
@@ -107,7 +107,7 @@ issues:
       * Display in notice or banner that usage may be monitored, recorded, and subject to audit
       * Display in notice or banner that unauthorized usage may incur civil and criminal charges
       * Display in notice or banner that system usage implies consent to these policies
-      * If the system is publically accessible, inform user of the acceptable uses and potential for monitoring, audits, ect. 
+      * If the system is publicly accessible, inform user of the acceptable uses and potential for monitoring, audits, etc. 
       * Display the notice or banner until the user acknowledges it
 
       *Acceptance Criteria / Evidence:*
