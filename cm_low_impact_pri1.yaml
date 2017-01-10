@@ -7,16 +7,22 @@ issues:
     body: |
 
       *Why:*
-      Blah blah blah @todo
+      How we configure our systems oftentimes determines how secure the system will be. Ensuring that we have a well-constructed, properly disseminated configuration management policy will help ensure that are systems are built and maintained securely.
+
 
       *How:* 
-      * See acceptance criteria. @todo?
+      * Define roles in addition to ISSO or ISSM that the configuration management policy is to be disseminated to. (State if there are no additional roles)
+      * Define roles in addition to ISSO or ISSM that the configuration management procedures are to be disseminated to. (State if there are no additional roles)
+      * Ensure that the configuration management policy and procedures are disseminated
+      * Define frequency at which to review and update the configuration management policy and procedures (Annually).
+      * Maintain audit trail of reviews and updates.
 
 
       *Acceptance Criteria / Evidence:*
-      * List of personnel with whom the configuration management policy should be disseminated
-      * Configuration management policy
-      * Frequency that the configuration management policy should be updated
+      * List of personnel to whom configuration management policy and procedures are to be disseminated
+      * Access control policy
+      * Access control policy version update page
+      * Access control policy audit trail of reviews and updates
 
 
       *Links:*
@@ -28,12 +34,12 @@ issues:
       - security
       - configuration
 
-  - title: As the CISO, I want to ensure that our IT system configuration settings are the most restrive possible that meets our functionality requirements.
+  - title: As the CISO, I want to ensure that our IT system configuration settings are the most restrictive possible that meets our functionality requirements.
 
     body: |
 
       *Why:*
-      Establishing and maintaining a standard set of locaked-down configurations is the most effective way to avoid security breaches.  Documenting the configuration settings is essential for personnel changes and can help us spot overlooked issues.  Sharing the documentation further helps us catch security holes.
+      Establishing and maintaining a standard set of locked-down configurations is the most effective way to avoid security breaches.  Documenting the configuration settings is essential for personnel changes and can help us spot overlooked issues.  Sharing the documentation further helps us catch security holes.
 
 
       *How:* 
@@ -79,7 +85,7 @@ issues:
       *How:* 
       * Determine the necessary information to collect.
       * Collect an initial inventory of IT system components.
-      * Review the inventory in a pre-determined frequency.
+      * Review the inventory in a predetermined frequency.
 
 
       *Acceptance Criteria / Evidence:*
@@ -107,4 +113,40 @@ issues:
       - security
       - inventory
 
+  - title: As the CISO, I need to ensure that we are not opening ourselves up to security vulnerabilities with the software individual personal install on their systems.
+
+    body: |
+
+      *Why:*
+      Oftentimes employees are unaware of the potential security risks of installing third party software packages, or are in such need to a specific feature that they quickly install a package without properly evaluating its security ramifications.  
+
+
+      *How:* 
+      * Establish permitted and prohibited actions regarding software installation. Permitted actions may include:
+        * Updates and security patches to existing software
+        * Downloading applications from organization-approved app stores
+      Example prohibited actions:
+        * Software with unknown or suspect pedigrees
+        * Software that organizations consider potentially malicious.      
+      * Enforce the software installation policies.
+      * Frequently monitor the policies to ensure compliance.
+
+
+      *Acceptance Criteria / Evidence:*
+      * Software installation policy
+      * Software policy enforcement plan
+      * Frequency with with the software policy will be monitored
+
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-11
+
+    labels:
+      - CM
+      - CM-11
+      - security
+      - software
+      - policy
 questions: []
+
+
+
