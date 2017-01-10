@@ -2,12 +2,41 @@ id: at_low_impact_pri1
 milestone: Awareness and Training
 issues:
 
+  - title: As the CIO, I want to document and communicate our organization's security awareness and training policies and procedures.
+
+    body: |
+
+      *Why:*
+      To maintain compliance, it is essential to have an effecitve security training and awareness program, and upper-management must be aware of the program and involved its design.
+
+      *How:* 
+      * Define roles in addition to ISSO or ISSM that the security awareness and training policies is to be disseminated to. (State if there are no additional roles)
+      * Ensure that the security awareness and training policies are disseminated
+      * Define frequency at which to review and update the security awareness and training policies (Annually).
+
+      *Acceptance Criteria / Evidence:*
+      * List of personnel to whom security awareness and training policies and procedures are to be disseminated
+      * Security awareness and training policies and procedures
+      * Security awareness and training policies and procedures update page
+      * Security awareness and training policies and procedures audit trail of reviews and updates
+
+      *Links:*
+      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-1
+
+    labels:
+      - AT
+      - AT-1
+      - security
+      - training
+      - awareness
+
+
   - title: As the CISO, I need to ensure that that an effective security awareness and training program is in place.
 
     body: |
 
       *Why:*
-      Our security protocol is only as strong as the weakest link, and oftentimes the most effective security strategy begins with ensuring that all staff are aware of the importance of taking IT security seriously.
+      Our security protocol is only as strong as the weakest link, and oftentimes the most effective security strategy begins with ensuring that all personnel are aware of the importance of taking IT security seriously.
 
 
       *How:* 
@@ -35,8 +64,7 @@ issues:
       *Links:*
       * https://www.pcisecuritystandards.org/documents/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf
       * http://iacis.org/iis/2010/410-416_LV2010_1363.pdf
-      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-3
-      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-3
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-2
       * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-3
 
     labels:
