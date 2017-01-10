@@ -7,7 +7,7 @@ issues:
     body: |
 
       *Why:*
-      To maintain compliance, it is essential to have an effecitve security training and awareness program, and upper-management must be aware of the program and involved its design.
+      To maintain compliance, it is essential to have an effective security training and awareness program, and upper-management must be aware of the program and involved its design.
 
       *How:* 
       * Define roles in addition to ISSO or ISSM that the security awareness and training policies is to be disseminated to. (State if there are no additional roles)
@@ -69,7 +69,6 @@ issues:
 
     labels:
       - AT
-      - AT-1
       - AT-2
       - AT-3
       - training
