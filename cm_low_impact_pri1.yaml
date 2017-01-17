@@ -69,10 +69,48 @@ issues:
       - CM
       - CM-2
       - CM-6
-      - CM-6
+      - CM-7
       - security
       - configuration
       - baseline
+
+  - title: As the Developer, I need to ensure that I am configuring my systems in a manner that is compliant with my organization's access control policy. 
+
+    body: |
+
+      *Why:*
+      The security of my application and related systems is paramount to my project's success.
+
+
+      *How:* 
+      * Build all systems from my organization's baseline configuration (CM-2).
+      * Document all configuration settings and deviations from the established configuration settings.  The configuration should provide only essential capabilities, and should restrict access to unused functions, ports and protocols (CM-7).
+      * Monitor and control changes to the configuration settings.
+        
+
+      *Acceptance Criteria / Evidence:*
+      * Document the system's security configuration, including: 
+        * Steps to install the application
+        * Steps to run the application
+        * Steps to test the application
+        * The use of the baseline configuration
+        * All deviations from the established configuration settings
+
+
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-2
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-7
+
+    labels:
+      - CM
+      - CM-2
+      - CM-6
+      - CM-7
+      - security
+      - configuration
+      - baseline
+      - developer
 
   - title: As the CISO, I want to maintain a centralized inventory of IT system components such as hardware, software licenses, and their respective owners.
 
@@ -109,7 +147,7 @@ issues:
 
     labels:
       - CM
-      - CM-3
+      - CM-8
       - security
       - inventory
 
@@ -146,7 +184,34 @@ issues:
       - security
       - software
       - policy
-questions: []
 
+  - title: As an employee, I need to ensure that my personal devices are secure.
+
+    body: |
+
+      *Why:*
+      I need to ensure that it is impossible for outsiders to gain access to sensitive or confidential information on my personal computer or mobile devices, especially in the case that one of these devices is lost.
+
+
+      *How:* 
+      * Follow the organization's guidelines on permitted and prohibited actions regarding software installation.
+      * Frequently monitor all local devices using organization-approved guidelines and scanners.
+
+
+      *Acceptance Criteria / Evidence:*
+      * Properly configure all computers and devices
+      * Log of security scanners running on all devices
+
+      *Links:*
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-11
+
+    labels:
+      - CM
+      - CM-11
+      - security
+      - software
+      - policy
+      - developer
+questions: []
 
 
