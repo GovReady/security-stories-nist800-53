@@ -57,7 +57,6 @@ To prevent unwanted access to secure data, we need to ensure that all network an
 *Why:*
 To prevent unwanted access to secure data, we need to ensure that all network and local access to privileged accounts are secure.
 
-
 *How:* 
 * Define an employee registration process that requires:
   * Unique personal identifiers that are applied to specific devices or roles
@@ -73,7 +72,6 @@ To prevent unwanted access to secure data, we need to ensure that all network an
   * Encrypt all passwords for transmission and storage using a cryptographic module that meets the requirements of applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance for such authentication (IA-7)
   * Minimum and maximum password lifetime
   * Use temporary passwords that can be immediately changed to a permanent password for password resets.
-
 
 *Acceptance Criteria / Evidence:*
 * Documented registration process are part of the organization's identification and authentication policy.
@@ -97,7 +95,6 @@ To prevent unwanted access to secure data, we need to ensure that all network an
 *Why:*
 All outside access, 3rd party integrations, or API connects to our organization's IT systems need to be secure to ensure the safety of privileged information.
 
-
 *How:* 
 * Accept and electronically verify Personal Identity Verification (PIV) credentials from other federal agencies.
 * Only use FICAM-approved third-party credentials.
@@ -106,7 +103,6 @@ All outside access, 3rd party integrations, or API connects to our organization'
 *Acceptance Criteria / Evidence:*
 * Non-employee access guidelines are part of the organization's identification and authentication policy
 * Docuentation of all third-party credentials and proof of FICAM approval.
-
 
 *Links:*
 * [FICAM Guidance](http://info.idmanagement.gov/2012/04/federation-ficam-and-guidance.html)

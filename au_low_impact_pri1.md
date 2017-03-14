@@ -14,13 +14,11 @@ Logging various transactions in our IT systems is how we can later audit activit
 * Define frequency at which to review and update the audit and accountability policy and procedures (Annually).
 * Maintain audit trail of reviews and updates.
 
-
 *Acceptance Criteria / Evidence:*
 * List of personnel to whom accountability policy and procedures are to be disseminated
 * Audit and accountability policy
 * Audit and accountability policy version update page
 * Audit and accountability policy audit trail of reviews and updates
-
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-1
@@ -72,7 +70,6 @@ If our audit records do not contain all of the necessary content, we will not be
 *How:* 
 * Review each audit trail record to ensure that it contains all necessary information.
 
-
 *Acceptance Criteria / Evidence:*
 * What type of event occurred
 * When the event occurred
@@ -80,7 +77,6 @@ If our audit records do not contain all of the necessary content, we will not be
 * The source of the event
 * The outcome of the event
 * The identity of any individuals or subjects associated with the event
-
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-3
@@ -101,13 +97,11 @@ We don’t want to lose critical audit records because storage capacity was exce
 * Allocate the storage for the logs. One strategy is to copy audit records from system to secondary storage system to avoid loss of critical information
 * Set up a notification when maximum storage is approached (e.g., 80%)
 
-
 *Acceptance Criteria / Evidence:*
 * Copy of section of audit policy specifying audit retention requirements
 * Copy of section of STIG or SRG that indicates audit retention requirements
 * Demonstration of allocated storage (screenshot, service documentation, or configuration code
 * Demonstration of notification as max storage approached (screenshot or inspection)
-
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-4
@@ -134,10 +128,8 @@ We don’t want to lose critical audit records because of errors in the auditing
 * Determine an effective test frequency and alert method (text, email, Slack).
 * Check the audit system monitors every two months to ensure they are working properly.
 
-
 *Acceptance Criteria / Evidence*
 * List of the people and method to alert when there are issues with the audit system.
-
 
 *Links*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-5
@@ -157,12 +149,10 @@ We don’t want to lose critical audit records because of errors in the auditing
 * Decide which patterns we should be looking for: errors, suspicious access records, database access from an unexpected IP range.
 * Approve the workflow (who to contact and how to contact them) for reporting any abnormalities.
 
-
 *Acceptance Criteria / Evidence:*
 * Copy of document listing log files and their locations.
 * List of known vulnerability patterns we looking for.
 * Document outlining workflow for reporting unusual activity.
-
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-6
@@ -177,17 +167,14 @@ We don’t want to lose critical audit records because of errors in the auditing
 Reports need to be timestamped with an universally understood format to assist in analysis of events and system/data recovery.
 When different logs use different timezones and/or non-standard formats, it is harder to collate and compare events across different logs.
 
-
 *How*
 * Create organization standard for transaction record timestamp granularity of least 1 second
 * Create record timestamping mechanism that timestamps transactions with defined granularity in UTC or GMT
 * Timestamp with a system’s clock
 
-
 *Acceptance Criteria / Evidence*
 * Excerpt from STIG or SRG in use that defines timestamp granularity standard
 * Show example of logged events are being timestamped or configuration that forces timestamps
-
 
 *Links*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-8
@@ -202,16 +189,13 @@ When different logs use different timezones and/or non-standard formats, it is h
 *Why:*
 Audit information can contain system information that would be dangerous in the wrong hands.  By the same token, the systems that create reports could be manipulated by an unauthorized party to provide misleading information.
 
-
 *How:* 
 * Determine list of privileged users that will have access to log generation, reduction reports and report-creating systems
 * Ensure log-related information are read-only and write-only to authorized users
 * Ensure report creation systems have permissions and or log-in credentials that bar access to unauthorized users
 
-
 *Acceptance Criteria / Evidence:*
 * Provide list of privileged users with access to log generation, reduction reports and report-creating systems
-
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-9
@@ -231,12 +215,10 @@ The organization needs certain information for audit purposes
 * Work with security and business to confirm events and components
 * Check AU-3 for necessary log content and modify log templates and content accordingly
 
-
 *Acceptance Criteria / Evidence:*
 * URL to audit and accountability policy
 * List of system components that generate logs and log retention
 * Excerpt from STIG or SRG in use that automatically sets or specifies log settings
-
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-12

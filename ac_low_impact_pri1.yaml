@@ -7,9 +7,10 @@ issues:
     body: |
 
       *Why:*
+
       Access control is central to security compliance, and maintaining sensible rules for what classes of users have access to what types of systems will ensure lasting security for organizational systems.
 
-      *How:* 
+      *How:*
       * Define roles in addition to ISSO or ISSM that the access control policy is to be disseminated to. (State if there are no additional roles)
       * Define roles in addition to ISSO or ISSM that the access control procedures are to be disseminated to. (State if there are no additional roles)
       * Ensure that the access control policy and procedures are disseminated
@@ -23,7 +24,7 @@ issues:
       * Access control policy audit trail of reviews and updates
 
       *Links:*
-      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-1
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-1
 
     labels:
       - AC
@@ -65,7 +66,7 @@ issues:
 
 
       *Links:*
-      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-2
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-2
 
     labels:
       - AC
@@ -117,7 +118,7 @@ issues:
       * Notice or banner continues to display until user acknowledges it
 
       *Links:*
-      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-8
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-8
 
     labels:
       - AC
@@ -143,7 +144,7 @@ issues:
       * Remote access authorization policy
 
       *Links:*
-      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-17
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-17
 
     labels:
       - AC
@@ -167,7 +168,7 @@ issues:
       * Wireless access authorization policy
 
       *Links:*
-      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-18
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-18
 
     labels:
       - AC
@@ -196,7 +197,7 @@ issues:
       * Mobile device connection authorization policy
 
       *Links:*
-      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-19
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-19
 
     labels:
       - AC
@@ -227,7 +228,7 @@ issues:
       * List of exempt agencies/entities (if any)
 
       *Links:*
-      https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-20
+      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-20
 
     labels:
       - AC
