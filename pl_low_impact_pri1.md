@@ -26,6 +26,16 @@ We need to ensure that all relevant policies are conversant in our security plan
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=PL-1
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CA-1
+
+*Labels*
+* PL
+* CA
+* PL-1
+* CA-1
+* security
+* planning
+* assessment
+* dissemination
 ## As the CIO, I want to document and communicate our organization's security plan and define assessment procedures.
 
 *Why:*
@@ -57,3 +67,12 @@ A complete and coherent security plan is essential to share with new employees, 
 * [NIST Special Publication 800-18](http://csrc.nist.gov/publications/PubsSPs.html#800-18)
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=PL-2
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CA-3
+
+*Labels*
+* PL
+* CA
+* PL-2
+* CA-3
+* security
+* planning
+* assessment

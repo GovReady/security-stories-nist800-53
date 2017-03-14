@@ -20,6 +20,13 @@ To maintain compliance, it is essential to have an effective security training a
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-1
+
+*Labels*
+* AT
+* AT-1
+* security
+* training
+* awareness
 ## As the CISO, I need to ensure that that an effective security awareness and training program is in place.
 
 *Why:*
@@ -53,3 +60,11 @@ Our security protocol is only as strong as the weakest link, and oftentimes the 
 * http://iacis.org/iis/2010/410-416_LV2010_1363.pdf
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-2
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-3
+
+*Labels*
+* AT
+* AT-2
+* AT-3
+* training
+* awareness
+* security

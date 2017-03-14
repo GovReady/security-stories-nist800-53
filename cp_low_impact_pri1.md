@@ -23,6 +23,12 @@ Plans for system compromise or failure is the first bastion of defense against c
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-1
+
+*Labels*
+* CP
+* CP-1
+* security
+* compliance
 ## As the CIO, I want to ensure each IT system is covered by a contingency plan.
 
 *Why:*
@@ -60,6 +66,12 @@ Having a robust contingency plan in the event of system compromise or failure he
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-2
+
+*Labels*
+* CP
+* CP-2
+* security
+* compliance
 ## As developer, I want to stay appraised of the contingency plan for an IT system I work on.
 
 *Why:*
@@ -72,6 +84,13 @@ Contingency plans for IT system compromise or failure only are effective so far 
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-2
+
+*Labels*
+* CP
+* CP-2
+* security
+* compliance
+* developer
 ## As the CIO, I want to ensure backups of IT user-level and system-level data are being being created and stored for each IT system.
 
 *Why:*
@@ -95,6 +114,12 @@ Proper backup policy is a core component of contingency response, and the only r
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-9
+
+*Labels*
+* CP
+* CP-9
+* security
+* compliance
 ## As a developer, I want to monitor that IT system backups are being created without issue.
 
 *Why:*
@@ -106,6 +131,13 @@ Proper backup policy is a core component of contingency response, and the only r
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-9
+
+*Labels*
+* CP
+* CP-9
+* security
+* compliance
+* developer
 ## As the CIO, I want to ensure IT systems are recovered are reconstituted to a known state after a disruption, compromise, or failure
 
 *Why:*
@@ -131,3 +163,9 @@ IT system resiliency is only as effective as the recovery process implementation
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-10
+
+*Labels*
+* CP
+* CP-10
+* security
+* compliance

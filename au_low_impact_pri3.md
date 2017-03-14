@@ -21,3 +21,9 @@ Make sure system is configured to either not delete log files too soon, or logs 
 
 *Links*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-11
+
+*Labels*
+* AU
+* AU-11
+* security
+* compliance

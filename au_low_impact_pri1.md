@@ -24,6 +24,12 @@ Logging various transactions in our IT systems is how we can later audit activit
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-1
+
+*Labels*
+* AU
+* AU-1
+* security
+* compliance
 ## As the CISO, I need to know that our there is a reliable systems for collecting audit trail information, and I need to periodically review these audit trails to ensure that the systems are working properly.
 
 *Why:*
@@ -52,6 +58,12 @@ In the event of a security incidents, we need to be able to investigate the sour
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-2
+
+*Labels*
+* AU
+* AU-2
+* security
+* compliance
 ## As the CISO, I need to know that our audit records are complete.
 
 *Why:*
@@ -72,6 +84,12 @@ If our audit records do not contain all of the necessary content, we will not be
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-3
+
+*Labels*
+* AU
+* AU-3
+* security
+* compliance
 ## As the CIO, I want there to be sufficient server storage for audit records.
 
 *Why:*
@@ -94,6 +112,12 @@ We don’t want to lose critical audit records because storage capacity was exce
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-4
 * http://800-53.govready.com/control?id=AU-4
+
+*Labels*
+* AU
+* AU-4
+* security
+* compliance
 ## As the CIO, I need my team alerted whenever the information system's logging subsystem fails so steps can be taken to avoid further loss of audit data.
 
 *Why*
@@ -117,6 +141,12 @@ We don’t want to lose critical audit records because of errors in the auditing
 
 *Links*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-5
+
+*Labels*
+* AU
+* AU-5
+* security
+* compliance
 ## As the CISO, I need to review all log files regularly bi-weekly for unusual activities.
 
 *Why:*
@@ -136,6 +166,12 @@ We don’t want to lose critical audit records because of errors in the auditing
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-6
+
+*Labels*
+* AU
+* AU-6
+* security
+* compliance
 ## As the CISO, I want transactions in logs to clearly use a UTC timestamps so data can be synchronized with less processing.
 *Why*
 Reports need to be timestamped with an universally understood format to assist in analysis of events and system/data recovery.
@@ -155,6 +191,12 @@ When different logs use different timezones and/or non-standard formats, it is h
 
 *Links*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-8
+
+*Labels*
+* AU
+* AU-8
+* security
+* compliance
 ## As the CISO, I want to prevent unauthorized access to logs and audit reports and the systems that create them.
 
 *Why:*
@@ -173,6 +215,12 @@ Audit information can contain system information that would be dangerous in the 
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-9
+
+*Labels*
+* AU
+* AU-9
+* security
+* compliance
 ## As the developer, I want the components of the system to generate required logs with required content.
 
 *Why:*
@@ -192,3 +240,9 @@ The organization needs certain information for audit purposes
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-12
+
+*Labels*
+* AU
+* AU-12
+* security
+* compliance

@@ -84,6 +84,12 @@ for yaml_file in glob.glob( os.path.join(path, '*.yaml') ):
         # print(issue['body'][0:30])
         md_text += "{}".format(issue['body'].encode('utf-8','ignore'))
 
+        # append labels
+        if 'labels' in issue:
+            md_text += "\n*Labels*\n"
+            for label in issue['labels']:
+                md_text += "* {}\n".format(label.encode('utf-8','ignore'))
+
     # write md_text to file
     with open("{}{}.md".format(path, yaml_file.strip(".yaml")), "w") as md_file:
         md_file.write(md_text)

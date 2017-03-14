@@ -25,6 +25,12 @@ How we configure our systems oftentimes determines how secure the system will be
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-1
+
+*Labels*
+* CM
+* CM-1
+* security
+* configuration
 ## As the CISO, I want to ensure that our IT system configuration settings are the most restrictive possible that meets our functionality requirements.
 
 *Why:*
@@ -53,6 +59,15 @@ Establishing and maintaining a standard set of locked-down configurations is the
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-2
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-7
+
+*Labels*
+* CM
+* CM-2
+* CM-6
+* CM-7
+* security
+* configuration
+* baseline
 ## As the Developer, I need to ensure that I am configuring my systems in a manner that is compliant with my organization's access control policy.
 
 *Why:*
@@ -78,6 +93,16 @@ The security of my application and related systems is paramount to my project's 
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-2
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-7
+
+*Labels*
+* CM
+* CM-2
+* CM-6
+* CM-7
+* security
+* configuration
+* baseline
+* developer
 ## As the CISO, I want to maintain a centralized inventory of IT system components such as hardware, software licenses, and their respective owners.
 
 *Why:*
@@ -108,6 +133,12 @@ Maintaining an inventory helps ensure that components are up-to-date and helps i
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-8
+
+*Labels*
+* CM
+* CM-8
+* security
+* inventory
 ## As the CISO, I need to ensure that we are not opening ourselves up to security vulnerabilities with the software individual personal install on their systems.
 
 *Why:*
@@ -132,6 +163,13 @@ Example prohibited actions:
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-11
+
+*Labels*
+* CM
+* CM-11
+* security
+* software
+* policy
 ## As an employee, I need to ensure that my personal devices are secure.
 
 *Why:*
@@ -149,3 +187,11 @@ I need to ensure that it is impossible for outsiders to gain access to sensitive
 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-11
+
+*Labels*
+* CM
+* CM-11
+* security
+* software
+* policy
+* developer

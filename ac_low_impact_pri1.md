@@ -22,6 +22,12 @@ Access control is central to security compliance, and maintaining sensible rules
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-1
+
+*Labels*
+* AC
+* AC-1
+* security
+* compliance
 ## As the CIO, I want to ensure system accounts are identified, approved, assigned, monitored, and reviewed in accordance with organizational policy.
 
 *Why:*
@@ -55,6 +61,12 @@ Having a robust process for the creation and review of IT system accounts ensure
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-2
+
+*Labels*
+* AC
+* AC-2
+* security
+* compliance
 ## As the CIO, I want to not only enforce access control policies for IT systems, but also apply them to applications and services that exist on those systems.
 
 *Why:*
@@ -69,6 +81,12 @@ Applications and services that run on IT systems present an equal, if not greate
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-3
+
+*Labels*
+* AC
+* AC-3
+* security
+* compliance
 ## As the CIO, I want to ensure that users are notified of privacy and security concerns when they are logging into or using U.S. Government systems.
 
 *Why:*
@@ -89,6 +107,12 @@ Users interacting with U.S. Government systems should be aware of potential priv
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-8
+
+*Labels*
+* AC
+* AC-8
+* security
+* compliance
 ## As the CIO, I want to create guidelines for different types of remote connections to IT systems and authorize the granting of those connections.
 
 *Why:*
@@ -106,6 +130,12 @@ Different types of remote access present unique security concerns.  Documenting 
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-17
+
+*Labels*
+* AC
+* AC-17
+* security
+* compliance
 ## As the CIO, I want to create guidelines for wireless access to IT systems and authorize the granting of those connections.
 
 *Why:*
@@ -121,6 +151,12 @@ Wireless access to IT systems by definition can be intercepted, and as a result,
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-18
+
+*Labels*
+* AC
+* AC-18
+* security
+* compliance
 ## As the CIO, I want to create guidelines for organizational mobile devices and authorize the connection of said mobile devices to IT systems.
 
 *Why:*
@@ -141,6 +177,12 @@ The distribution of mobile devices within an organization is increasingly common
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-19
+
+*Labels*
+* AC
+* AC-19
+* security
+* compliance
 ## As the CIO, I want to document terms and conditions regarding external access to IT systems and the use of external systems by our organization.
 
 *Why:*
@@ -163,3 +205,9 @@ External access to IT systems by contractors, other agencies, etc will inevitabl
 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-20
+
+*Labels*
+* AC
+* AC-20
+* security
+* compliance
