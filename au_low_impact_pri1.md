@@ -1,0 +1,192 @@
+# NIST 800-53 AU Low Impact Priority 1
+
+## As the CIO, I want to document and communicate our organization's approach and priorities for having a reliable audit trail of transactions in our IT systems.
+
+*Why:*
+Logging various transactions in our IT systems is how we can later audit activity for things that went wrong and for malicious actions. Without audit trail we won't have a record of interactions with the system.
+
+*How:* 
+* Define roles in addition to ISSO or ISSM that the audit and accountability policy is to be disseminated to. (State if there are no additional roles)
+* Define roles in addition to ISSO or ISSM that the audit and accountability procedures are to be disseminated to. (State if there are no additional roles)
+* Ensure that the audit accountability policy and procedures are disseminated
+* Define frequency at which to review and update the audit and accountability policy and procedures (Annually).
+* Maintain audit trail of reviews and updates.
+
+
+*Acceptance Criteria / Evidence:*
+* List of personnel to whom accountability policy and procedures are to be disseminated
+* Audit and accountability policy
+* Audit and accountability policy version update page
+* Audit and accountability policy audit trail of reviews and updates
+
+
+*Links:*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-1
+## As the CISO, I need to know that our there is a reliable systems for collecting audit trail information, and I need to periodically review these audit trails to ensure that the systems are working properly.
+
+*Why:*
+In the event of a security incidents, we need to be able to investigate the source and potential scope of the breach.
+
+*How:* 
+* Work across organizations to develop a list of audit events.  Examples include:
+  * Password changes
+  * Successful and unsuccessful login attempts
+  * Successful and unsuccessful attempts to access, modify, or delete privileges, security objects, security levels, or categories of information
+  * Administrative privilege usage or other system level access
+  * Starting and ending time for user access to the system
+  * Concurrent logins from different workstations
+  * Account creations, modifications, disabling, and terminations
+  * Kernel module load, unload, and restart
+  * Third-party credential usage
+* Define the frequency of (or situation requiring) auditing for each audit event.
+* Develop a rationale for why the list of audit events is deemed to be adequate to support after-the-fact investigations of security incidents.
+
+
+*Acceptance Criteria / Evidence:*
+* List of audit events
+* Frequency that each event will be audited to ensure data is being properly collected
+* Rationale for why the list of audit events is complete
+
+
+*Links:*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-2
+## As the CISO, I need to know that our audit records are complete.
+
+*Why:*
+If our audit records do not contain all of the necessary content, we will not be able to properly investigate a potential breach.
+
+*How:* 
+* Review each audit trail record to ensure that it contains all necessary information.
+
+
+*Acceptance Criteria / Evidence:*
+* What type of event occurred
+* When the event occurred
+* Where the event occurred
+* The source of the event
+* The outcome of the event
+* The identity of any individuals or subjects associated with the event
+
+
+*Links:*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-3
+## As the CIO, I want there to be sufficient server storage for audit records.
+
+*Why:*
+We don’t want to lose critical audit records because storage capacity was exceeded.
+
+*How:* 
+* Check organization Audit Policy for time range of audit records to be saved (e.g., 6 month, 1 year, etc.)
+* Estimate the storage required for the information system to store the required time period of logs
+* Allocate the storage for the logs. One strategy is to copy audit records from system to secondary storage system to avoid loss of critical information
+* Set up a notification when maximum storage is approached (e.g., 80%)
+
+
+*Acceptance Criteria / Evidence:*
+* Copy of section of audit policy specifying audit retention requirements
+* Copy of section of STIG or SRG that indicates audit retention requirements
+* Demonstration of allocated storage (screenshot, service documentation, or configuration code
+* Demonstration of notification as max storage approached (screenshot or inspection)
+
+
+*Links:*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-4
+* http://800-53.govready.com/control?id=AU-4
+## As the CIO, I need my team alerted whenever the information system's logging subsystem fails so steps can be taken to avoid further loss of audit data.
+
+*Why*
+We don’t want to lose critical audit records because of errors in the auditing system.
+
+
+*How*
+* Set up monitoring to detect issues with the audit system. Examples:
+  * Pingdom
+  * Amazon CloudWatch
+  * New Relic
+* A custom script monitoring updated timestamps
+* Decide who should receive alerts.
+* Determine an effective test frequency and alert method (text, email, Slack).
+* Check the audit system monitors every two months to ensure they are working properly.
+
+
+*Acceptance Criteria / Evidence*
+* List of the people and method to alert when there are issues with the audit system.
+
+
+*Links*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-5
+## As the CISO, I need to review all log files regularly bi-weekly for unusual activities.
+
+*Why:*
+We don’t want to lose critical audit records because of errors in the auditing system.
+
+*How:* 
+* Determine what the important log files are (webserver error log, webserver access log, database access log, system error log) and where on the server they are located.
+* Decide which patterns we should be looking for: errors, suspicious access records, database access from an unexpected IP range.
+* Approve the workflow (who to contact and how to contact them) for reporting any abnormalities.
+
+
+*Acceptance Criteria / Evidence:*
+* Copy of document listing log files and their locations.
+* List of known vulnerability patterns we looking for.
+* Document outlining workflow for reporting unusual activity.
+
+
+*Links:*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-6
+## As the CISO, I want transactions in logs to clearly use a UTC timestamps so data can be synchronized with less processing.
+*Why*
+Reports need to be timestamped with an universally understood format to assist in analysis of events and system/data recovery.
+When different logs use different timezones and/or non-standard formats, it is harder to collate and compare events across different logs.
+
+
+*How*
+* Create organization standard for transaction record timestamp granularity of least 1 second
+* Create record timestamping mechanism that timestamps transactions with defined granularity in UTC or GMT
+* Timestamp with a system’s clock
+
+
+*Acceptance Criteria / Evidence*
+* Excerpt from STIG or SRG in use that defines timestamp granularity standard
+* Show example of logged events are being timestamped or configuration that forces timestamps
+
+
+*Links*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-8
+## As the CISO, I want to prevent unauthorized access to logs and audit reports and the systems that create them.
+
+*Why:*
+Audit information can contain system information that would be dangerous in the wrong hands.  By the same token, the systems that create reports could be manipulated by an unauthorized party to provide misleading information.
+
+
+*How:* 
+* Determine list of privileged users that will have access to log generation, reduction reports and report-creating systems
+* Ensure log-related information are read-only and write-only to authorized users
+* Ensure report creation systems have permissions and or log-in credentials that bar access to unauthorized users
+
+
+*Acceptance Criteria / Evidence:*
+* Provide list of privileged users with access to log generation, reduction reports and report-creating systems
+
+
+*Links:*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-9
+## As the developer, I want the components of the system to generate required logs with required content.
+
+*Why:*
+The organization needs certain information for audit purposes
+
+*How:* 
+* Check AU-2 for a list of auditable events and figure out which components provide the logs for those events
+* Work with security and business to confirm events and components
+* Check AU-3 for necessary log content and modify log templates and content accordingly
+
+
+*Acceptance Criteria / Evidence:*
+* URL to audit and accountability policy
+* List of system components that generate logs and log retention
+* Excerpt from STIG or SRG in use that automatically sets or specifies log settings
+
+
+*Links:*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-12

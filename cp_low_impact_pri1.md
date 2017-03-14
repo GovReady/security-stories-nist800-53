@@ -1,0 +1,131 @@
+# NIST 800-53 CP Low Impact Priority 1
+
+## As the CIO, I want to document and communicate our organization's approach to contingency planning and process for our IT systems.
+
+*Why:*
+Plans for system compromise or failure is the first bastion of defense against catastrophe in IT systems. 
+
+*How:* 
+* Define roles in addition to ISSO or ISSM that the contingency planning policy is to be disseminated to. (State if there are no additional roles)
+* Define roles in addition to ISSO or ISSM that the contingency planningprocedures are to be disseminated to. (State if there are no additional roles)
+* Ensure that the contingency planning policy and procedures are disseminated
+* Define frequency at which to review and update the contingency planning policy and procedures (Annually).
+* Maintain audit trail of reviews and updates.
+
+*Acceptance Criteria / Evidence:*
+* List of personnel to whom contingency planning policy and procedures are to be disseminated
+* Contingency planning policy
+* Contingency planning policy version update page
+* Contingency planning policy audit trail of reviews and updates
+
+
+*Links:*
+https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-1
+## As the CIO, I want to ensure each IT system is covered by a contingency plan.
+
+*Why:*
+Having a robust contingency plan in the event of system compromise or failure helps ensure limited damage to, or suspension of, organizational processes.  
+
+*How:* 
+* Define essential missions and functions for each IT system
+* Identify recovery objectives, restoration priorities, and metrics for each IT system
+* Define and assign roles and responsibilities, with contact information, for each IT system
+* Identify strategies for how each IT system’s core mission may be continued in the case of compromise or failure.  For example:
+  * orderly/graceful degradation
+  * information system shutdown
+  * fallback to a manual mode
+  * alternate information flows
+  * operating in modes reserved for when systems are under attack
+* Catalog a path from incident to the full restoration of functionality for each IT system, whilst maintaining planned safeguards
+* Distribute copies of the relevant contingency policy to those responsible for its implementation and oversight
+* Coordinate the implementation of the policy by those handling incident response
+* Review each IT system’s contingency plan at a defined frequency, and update the policy if required by new information or organizational goals 
+* Alert stakeholders of IT system contingency policy changes
+* Protect the contingency plan from unauthorized changes or access
+
+*Acceptance Criteria / Evidence:*
+* Contingency plan for each IT system that:
+  * Lists essential missions and functions
+  * Lists recovery objectives and priorities
+  * Contains roles and responsibilities that are assigned with contact information
+  * Lists strategies for the continued running or functionality under duress
+  * Lists steps for the full restoration of functionality
+* Logs of the contingency plan distribution to IT system stakeholders
+* Defined frequency for review of IT system contingency plan
+* Logs of the review of IT system contingency plan
+* Logs of communication for IT system contingency plan updates
+* Documented approach for the protection of contingency plan from unauthorized access
+
+*Links:*
+https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-2
+## As developer, I want to stay appraised of the contingency plan for an IT system I work on.
+
+*Why:*
+Contingency plans for IT system compromise or failure only are effective so far as they can be implemented, and as such, each stakeholder should be aware of the tasks they are responsible for.  
+
+*How:* 
+* Know is responsible for the restoration of IT system components in case of incident
+* Stay apprised of updates to the contingency plan for a IT system I work on
+* Keep relevant individual updated with contact information changes and personal availability
+
+*Links:*
+https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-2
+## As the CIO, I want to ensure backups of IT user-level and system-level data are being being created and stored for each IT system.
+
+*Why:*
+Proper backup policy is a core component of contingency response, and the only real guard against data loss.
+
+*How:* 
+* Develop system, and frequency, for the routine backup of system-level information for each IT system.  May include:
+  * System-state information
+  * Operating system and application software
+  * Licenses
+* Develop system, and frequency, for the routine backup of user-level information for each IT system.  Includes:
+  * Any critical information not covered by system level backups
+* Develop system, and frequency, for the routine backup of technical documentation for each IT system
+* Employ measures for the confidentiality, integrity, and availability of backup information. For example:
+  * Digital signatures
+  * Cryptographic hashes
+
+*Acceptance Criteria / Evidence:*
+* Backup policy and frequency for each IT system
+* Documented security approach for backup information in storage
+
+*Links:*
+https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-9
+## As a developer, I want to monitor that IT system backups are being created without issue.
+
+*Why:*
+Proper backup policy is a core component of contingency response, and the only real guard against data loss.
+
+*How:* 
+* Monitor system logs for errors that indicate system backups are failing or incomplete
+* Alert appropriate individuals of changes in an IT system or application that may require additional information backups
+
+*Links:*
+https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-9
+## As the CIO, I want to ensure IT systems are recovered are reconstituted to a known state after a disruption, compromise, or failure
+
+*Why:*
+IT system resiliency is only as effective as the recovery process implementation after an incident.
+
+*How:* 
+* After an IT system incident, recover an IT system to core missions/business functions.  May include:
+  * Contacting stakeholders
+  * Taking systems offline and restarting them
+  * Analyzing logs for the system
+  * Restoring backups
+* Following IT system recovery, reconstitute the IT system.  This may include:
+  * Deactivation of any interim information system capabilities from recovery
+  * Assessments of fully restored information system capabilities
+  * Reestablishment of continuous monitoring activities
+  * Potential information system reauthorizations
+* Investigate strategies to prepare the IT system against future disruptions, compromises, or failures
+
+*Acceptance Criteria / Evidence:*
+* Logs of system incident communication
+* Documented reconstitution activities
+* List of strategies for future IT system hardening
+
+*Links:*
+https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-10

@@ -1,0 +1,21 @@
+# NIST 800-53 AU Low Impact Priority 3
+
+## As the CISO, I want to retain log files long enough to investigate security incidents that happened weeks or months ago.
+
+*Why*
+We may not learn of a penetration or security incident when it happens. Also, there may be regulatory requirements for retaining audit records.
+
+
+*How*
+Determine the official retention periods for different types of audit records (e.g., check organization policy and pertinent regulations)
+Make sure system is configured to either not delete log files too soon, or logs are transferred to a service or separate storage for retention
+
+
+*Acceptance Criteria / Evidence*
+* Excerpt of audit and accountability policy specifying retention periods of audit logs
+* Copy of an after action report which includes audit log information
+* Excerpt from STIG or SRG in use that automatically sets or specifies audit retention periods
+
+
+*Links*
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-11

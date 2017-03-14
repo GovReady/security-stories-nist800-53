@@ -1,0 +1,53 @@
+# NIST 800-53 AT Low Impact Priority 1
+
+## As the CIO, I want to document and communicate our organization's security awareness and training policies and procedures.
+
+*Why:*
+To maintain compliance, it is essential to have an effective security training and awareness program, and upper-management must be aware of the program and involved its design.
+
+*How:* 
+* Define roles in addition to ISSO or ISSM that the security awareness and training policies is to be disseminated to. (State if there are no additional roles)
+* Ensure that the security awareness and training policies are disseminated
+* Define frequency at which to review and update the security awareness and training policies (Annually).
+
+*Acceptance Criteria / Evidence:*
+* List of personnel to whom security awareness and training policies and procedures are to be disseminated
+* Security awareness and training policies and procedures
+* Security awareness and training policies and procedures update page
+* Security awareness and training policies and procedures audit trail of reviews and updates
+
+*Links:*
+https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-1
+## As the CISO, I need to ensure that that an effective security awareness and training program is in place.
+
+*Why:*
+Our security protocol is only as strong as the weakest link, and oftentimes the most effective security strategy begins with ensuring that all personnel are aware of the importance of taking IT security seriously.
+
+
+*How:* 
+* Create a security awareness and training policy that addresses purpose, scope, roles, responsibilities, management commitment, coordination among organizational entities, and compliance.
+* Define the frequency with which the security training policy will be reviewed and updated.
+* Provide basic security awareness training to all IT system users:
+  * As part of the initial training for new users
+  * After IT system changes
+  * In regular frequencies
+* Trainings can include:
+  * Displaying posters
+  * Offering supplies inscribed with security reminders
+  * Sending emails from senior officials
+  * Displaying login screen messages
+  * Holding training and security awareness events
+* Conduct role-based training for users with additional privileges before authorizing additional access and in regular frequencies.
+
+
+*Acceptance Criteria / Evidence:*
+* Security awareness and training policy
+* Security training event curriculum
+* Additional security-related posters, supplies, and messages
+
+
+*Links:*
+* https://www.pcisecuritystandards.org/documents/PCI_DSS_V1.0_Best_Practices_for_Implementing_Security_Awareness_Program.pdf
+* http://iacis.org/iis/2010/410-416_LV2010_1363.pdf
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-2
+* https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-3
