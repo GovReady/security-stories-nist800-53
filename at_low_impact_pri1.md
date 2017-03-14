@@ -21,7 +21,7 @@ To maintain compliance, it is essential to have an effective security training a
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-1
 
-*Labels*
+*Labels:*
 * AT
 * AT-1
 * security
@@ -61,7 +61,7 @@ Our security protocol is only as strong as the weakest link, and oftentimes the 
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-2
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AT-3
 
-*Labels*
+*Labels:*
 * AT
 * AT-2
 * AT-3

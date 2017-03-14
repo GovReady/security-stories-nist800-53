@@ -23,7 +23,7 @@ Access control is central to security compliance, and maintaining sensible rules
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-1
 
-*Labels*
+*Labels:*
 * AC
 * AC-1
 * security
@@ -62,7 +62,7 @@ Having a robust process for the creation and review of IT system accounts ensure
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-2
 
-*Labels*
+*Labels:*
 * AC
 * AC-2
 * security
@@ -82,7 +82,7 @@ Applications and services that run on IT systems present an equal, if not greate
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-3
 
-*Labels*
+*Labels:*
 * AC
 * AC-3
 * security
@@ -108,7 +108,7 @@ Users interacting with U.S. Government systems should be aware of potential priv
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-8
 
-*Labels*
+*Labels:*
 * AC
 * AC-8
 * security
@@ -131,7 +131,7 @@ Different types of remote access present unique security concerns.  Documenting 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-17
 
-*Labels*
+*Labels:*
 * AC
 * AC-17
 * security
@@ -152,7 +152,7 @@ Wireless access to IT systems by definition can be intercepted, and as a result,
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-18
 
-*Labels*
+*Labels:*
 * AC
 * AC-18
 * security
@@ -178,7 +178,7 @@ The distribution of mobile devices within an organization is increasingly common
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-19
 
-*Labels*
+*Labels:*
 * AC
 * AC-19
 * security
@@ -206,7 +206,7 @@ External access to IT systems by contractors, other agencies, etc will inevitabl
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AC-20
 
-*Labels*
+*Labels:*
 * AC
 * AC-20
 * security

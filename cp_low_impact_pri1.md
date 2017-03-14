@@ -24,7 +24,7 @@ Plans for system compromise or failure is the first bastion of defense against c
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-1
 
-*Labels*
+*Labels:*
 * CP
 * CP-1
 * security
@@ -67,7 +67,7 @@ Having a robust contingency plan in the event of system compromise or failure he
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-2
 
-*Labels*
+*Labels:*
 * CP
 * CP-2
 * security
@@ -85,7 +85,7 @@ Contingency plans for IT system compromise or failure only are effective so far 
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-2
 
-*Labels*
+*Labels:*
 * CP
 * CP-2
 * security
@@ -115,7 +115,7 @@ Proper backup policy is a core component of contingency response, and the only r
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-9
 
-*Labels*
+*Labels:*
 * CP
 * CP-9
 * security
@@ -132,7 +132,7 @@ Proper backup policy is a core component of contingency response, and the only r
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-9
 
-*Labels*
+*Labels:*
 * CP
 * CP-9
 * security
@@ -164,7 +164,7 @@ IT system resiliency is only as effective as the recovery process implementation
 *Links:*
 https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CP-10
 
-*Labels*
+*Labels:*
 * CP
 * CP-10
 * security

@@ -26,7 +26,7 @@ How we configure our systems oftentimes determines how secure the system will be
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-1
 
-*Labels*
+*Labels:*
 * CM
 * CM-1
 * security
@@ -60,7 +60,7 @@ Establishing and maintaining a standard set of locked-down configurations is the
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-7
 
-*Labels*
+*Labels:*
 * CM
 * CM-2
 * CM-6
@@ -94,7 +94,7 @@ The security of my application and related systems is paramount to my project's 
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-7
 
-*Labels*
+*Labels:*
 * CM
 * CM-2
 * CM-6
@@ -134,7 +134,7 @@ Maintaining an inventory helps ensure that components are up-to-date and helps i
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-8
 
-*Labels*
+*Labels:*
 * CM
 * CM-8
 * security
@@ -164,7 +164,7 @@ Example prohibited actions:
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-11
 
-*Labels*
+*Labels:*
 * CM
 * CM-11
 * security
@@ -188,7 +188,7 @@ I need to ensure that it is impossible for outsiders to gain access to sensitive
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-11
 
-*Labels*
+*Labels:*
 * CM
 * CM-11
 * security

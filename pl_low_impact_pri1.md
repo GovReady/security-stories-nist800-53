@@ -27,7 +27,7 @@ We need to ensure that all relevant policies are conversant in our security plan
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=PL-1
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CA-1
 
-*Labels*
+*Labels:*
 * PL
 * CA
 * PL-1
@@ -68,7 +68,7 @@ A complete and coherent security plan is essential to share with new employees, 
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=PL-2
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CA-3
 
-*Labels*
+*Labels:*
 * PL
 * CA
 * PL-2

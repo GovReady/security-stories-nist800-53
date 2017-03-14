@@ -47,7 +47,7 @@ To prevent unwanted access to secure data, we need to ensure that all network an
 * [FIPS-201 WikiPedia article](https://en.wikipedia.org/wiki/FIPS_201)
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-2
 
-*Labels*
+*Labels:*
 * IA
 * IA-2
 * security
@@ -85,7 +85,7 @@ To prevent unwanted access to secure data, we need to ensure that all network an
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-6
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-7
 
-*Labels*
+*Labels:*
 * IA
 * IA-4
 * IA-5
@@ -113,7 +113,7 @@ All outside access, 3rd party integrations, or API connects to our organization'
 * [List of FICAM TFS Approved Identity Services](https://www.idmanagement.gov/IDM/s/article_detail?link=approved-identity-services)
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=IA-8
 
-*Labels*
+*Labels:*
 * IA
 * IA-8
 * federal

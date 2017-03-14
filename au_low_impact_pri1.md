@@ -25,7 +25,7 @@ Logging various transactions in our IT systems is how we can later audit activit
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-1
 
-*Labels*
+*Labels:*
 * AU
 * AU-1
 * security
@@ -59,7 +59,7 @@ In the event of a security incidents, we need to be able to investigate the sour
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-2
 
-*Labels*
+*Labels:*
 * AU
 * AU-2
 * security
@@ -85,7 +85,7 @@ If our audit records do not contain all of the necessary content, we will not be
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-3
 
-*Labels*
+*Labels:*
 * AU
 * AU-3
 * security
@@ -113,7 +113,7 @@ We don’t want to lose critical audit records because storage capacity was exce
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-4
 * http://800-53.govready.com/control?id=AU-4
 
-*Labels*
+*Labels:*
 * AU
 * AU-4
 * security
@@ -142,7 +142,7 @@ We don’t want to lose critical audit records because of errors in the auditing
 *Links*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-5
 
-*Labels*
+*Labels:*
 * AU
 * AU-5
 * security
@@ -167,7 +167,7 @@ We don’t want to lose critical audit records because of errors in the auditing
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-6
 
-*Labels*
+*Labels:*
 * AU
 * AU-6
 * security
@@ -192,7 +192,7 @@ When different logs use different timezones and/or non-standard formats, it is h
 *Links*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-8
 
-*Labels*
+*Labels:*
 * AU
 * AU-8
 * security
@@ -216,7 +216,7 @@ Audit information can contain system information that would be dangerous in the 
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-9
 
-*Labels*
+*Labels:*
 * AU
 * AU-9
 * security
@@ -241,7 +241,7 @@ The organization needs certain information for audit purposes
 *Links:*
 * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-12
 
-*Labels*
+*Labels:*
 * AU
 * AU-12
 * security

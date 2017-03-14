@@ -86,7 +86,7 @@ for yaml_file in glob.glob( os.path.join(path, '*.yaml') ):
 
         # append labels
         if 'labels' in issue:
-            md_text += "\n*Labels*\n"
+            md_text += "\n*Labels:*\n"
             for label in issue['labels']:
                 md_text += "* {}\n".format(label.encode('utf-8','ignore'))
 
