@@ -2,7 +2,7 @@
 
 A collection of security related user stories compatible with NIST Special Publication 800-53
 
-# Motifivation
+# Motivation
 
 It's hard to bake-in security and compliance into software projects when security and compliance are not part of the day to day agile work of software developers.
 
