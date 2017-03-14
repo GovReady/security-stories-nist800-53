@@ -88,7 +88,7 @@ issues:
       * The source of the event
       * The outcome of the event
       * The identity of any individuals or subjects associated with the event
- 
+
 
       *Links:*
       * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=AU-3
@@ -115,7 +115,7 @@ issues:
 
       *Acceptance Criteria / Evidence:*
       * Copy of section of audit policy specifying audit retention requirements
-      * Copy of section of STIG or SRG that indicates audit retention requirements 
+      * Copy of section of STIG or SRG that indicates audit retention requirements
       * Demonstration of allocated storage (screenshot, service documentation, or configuration code
       * Demonstration of notification as max storage approached (screenshot or inspection)
 
