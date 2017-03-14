@@ -10,7 +10,6 @@ issues:
       *Why:*
       How we configure our systems oftentimes determines how secure the system will be. Ensuring that we have a well-constructed, properly disseminated configuration management policy will help ensure that are systems are built and maintained securely.
 
-
       *How:* 
       * Define roles in addition to ISSO or ISSM that the configuration management policy is to be disseminated to. (State if there are no additional roles)
       * Define roles in addition to ISSO or ISSM that the configuration management procedures are to be disseminated to. (State if there are no additional roles)
@@ -18,13 +17,11 @@ issues:
       * Define frequency at which to review and update the configuration management policy and procedures (Annually).
       * Maintain audit trail of reviews and updates.
 
-
       *Acceptance Criteria / Evidence:*
       * List of personnel to whom configuration management policy and procedures are to be disseminated
       * Access control policy
       * Access control policy version update page
       * Access control policy audit trail of reviews and updates
-
 
       *Links:*
       * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-1
@@ -42,13 +39,11 @@ issues:
       *Why:*
       Establishing and maintaining a standard set of locked-down configurations is the most effective way to avoid security breaches.  Documenting the configuration settings is essential for personnel changes and can help us spot overlooked issues.  Sharing the documentation further helps us catch security holes.
 
-
       *How:* 
       * Develop and formally review a baseline configuration that can serve as a basis for future builds (CM-2).
       * Establish and document the configuration used for all products used by the IT system. This configuration should provide only essential capabilities, and should restrict access to unused functions, ports and protocols (CM-7).
       * Identify and document deviations from the established configuration settings.
       * Monitor and control changes to the configuration settings.
-        
 
       *Acceptance Criteria / Evidence:*
       * Baseline configuration
@@ -59,7 +54,6 @@ issues:
         * Network arrangement
       * Deviations from the established configuration settings
       * Frequency with which the configuration settings will be reviewed.
-
 
       *Links:*
       * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-2
@@ -82,26 +76,23 @@ issues:
       *Why:*
       The security of my application and related systems is paramount to my project's success.
 
-
       *How:* 
-      * Build all systems from my organization's baseline configuration (CM-2).
-      * Document all configuration settings and deviations from the established configuration settings.  The configuration should provide only essential capabilities, and should restrict access to unused functions, ports and protocols (CM-7).
-      * Monitor and control changes to the configuration settings.
+        * Build all systems from my organization's baseline configuration (CM-2).
+        * Document all configuration settings and deviations from the established configuration settings.  The configuration should provide only essential capabilities, and should restrict access to unused functions, ports and protocols (CM-7).
+        * Monitor and control changes to the configuration settings.
         
-
       *Acceptance Criteria / Evidence:*
-      * Document the system's security configuration, including: 
-        * Steps to install the application
-        * Steps to run the application
-        * Steps to test the application
-        * The use of the baseline configuration
-        * All deviations from the established configuration settings
-
+        * Document the system's security configuration, including: 
+          * Steps to install the application
+          * Steps to run the application
+          * Steps to test the application
+          * The use of the baseline configuration
+          * All deviations from the established configuration settings
 
       *Links:*
-      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-2
-      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6
-      * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-7
+        * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-2
+        * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-6
+        * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-7
 
     labels:
       - CM
@@ -120,12 +111,10 @@ issues:
       *Why:*
       Maintaining an inventory helps ensure that components are up-to-date and helps in addressing security vulnerability alerts.
 
-
       *How:* 
       * Determine the necessary information to collect.
       * Collect an initial inventory of IT system components.
       * Review the inventory in a predetermined frequency.
-
 
       *Acceptance Criteria / Evidence:*
       * Inventory specifications. Examples:
@@ -141,7 +130,6 @@ issues:
         * Software license information
         * Software version numbers
         * Machine names and network addresses for networked components or devices
-
 
       *Links:*
       * https://web.nvd.nist.gov/view/800-53/Rev4/control?controlName=CM-8
@@ -159,17 +147,15 @@ issues:
       *Why:*
       Oftentimes employees are unaware of the potential security risks of installing third party software packages, or are in such need to a specific feature that they quickly install a package without properly evaluating its security ramifications.  
 
-
       *How:* 
       * Establish permitted and prohibited actions regarding software installation. Permitted actions may include:
         * Updates and security patches to existing software
         * Downloading applications from organization-approved app stores
       Example prohibited actions:
         * Software with unknown or suspect pedigrees
-        * Software that organizations consider potentially malicious.      
+        * Software that organizations consider potentially malicious.
       * Enforce the software installation policies.
       * Frequently monitor the policies to ensure compliance.
-
 
       *Acceptance Criteria / Evidence:*
       * Software installation policy
@@ -193,11 +179,9 @@ issues:
       *Why:*
       I need to ensure that it is impossible for outsiders to gain access to sensitive or confidential information on my personal computer or mobile devices, especially in the case that one of these devices is lost.
 
-
       *How:* 
       * Follow the organization's guidelines on permitted and prohibited actions regarding software installation.
       * Frequently monitor all local devices using organization-approved guidelines and scanners.
-
 
       *Acceptance Criteria / Evidence:*
       * Properly configure all computers and devices
